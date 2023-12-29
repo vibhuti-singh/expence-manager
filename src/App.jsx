@@ -15,7 +15,7 @@ const App = () => {
       <div className="container-1">
         <BalanceSection/>
       <Routes>
-        <Route path='/home' element={<Allsections/>}/>
+        <Route path='/' element={<Allsections/>}/>
         <Route path='/chart' element={<PieChart/>}/>
       </Routes>
       </div>
